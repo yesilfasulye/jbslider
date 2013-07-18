@@ -1,0 +1,70 @@
+/*
+ * jQuery Bean Slider v1.0.0
+ * http://www.burakkaya.com
+ *
+ * Created by Burak KAYA
+ * Free to use
+ * 
+ * May 2012
+ */
+
+/* Page
+ --------------------------------- */
+body{
+	background:url(pattern32.png) repeat left top;
+	font:12px/18px Helvetica, Arial, sans-serif;
+}
+
+h1{
+	color:#36a6f1;
+	font-size:30px;
+}
+
+a, a:visited{
+	color:#36a6f1;
+}
+
+a:hover{
+	color:#333;	
+}
+
+#wrapper{
+	background-color:#fff;
+		-moz-box-shadow:0px 3px 10px rgba(0,0,0,0.3);
+		-webkit-box-shadow:0px 3px 10px rgba(0,0,0,0.3);
+	box-shadow:0px 3px 10px rgba(0,0,0,0.3);
+	border:5px solid #f2f2f2;
+		-moz-box-shadow:0px 3px 10px rgba(0,0,0,0.3);
+		-webkit-box-shadow:0px 3px 10px rgba(0,0,0,0.3);
+	border-radius:10px;
+	height:340px;
+	margin:50px auto;
+	padding:10px;
+	width:960px;
+}
+
+#container{
+	color:#666;
+	font-size:14px;
+	line-height:20px;
+	margin:50px auto;
+	text-shadow:1px 1px 1px #fff;
+	width:960px;
+}
+
+.sampleCode{
+	background:url(code_bg.gif) repeat left top;
+	border-left:5px solid #36a6f1;
+	display:block;
+	line-height:25px;
+	text-shadow:none;
+}
+
+.footer{
+	border-top:1px dashed #666;
+	font-size:11px;
+	line-height:normal;
+	padding:15px;
+	text-align:center;
+	text-shadow:none;
+}

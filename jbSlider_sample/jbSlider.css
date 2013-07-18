@@ -1,0 +1,154 @@
+/*
+ * jQuery Slider v1.0.0
+ * http://www.burakkaya.com
+ *
+ * Created by Burak KAYA
+ * Free to use
+ * 
+ * May 2012
+ */
+ 
+ 
+ 
+#slideContainer{
+	height:340px;
+	width:960px;
+	overflow:hidden;
+	position:relative;
+}
+
+/* Slides
+ --------------------------------- */
+#jb_slides div{
+	background:#333 url(noise.jpg) repeat left top;
+	border-radius:5px;
+		-moz-box-shadow:inset 0 0 15px #000;
+		-webkit-box-shadow:inset 0 0 15px #000;
+	box-shadow:inset 0 0 15px #000;
+	color:#fff;
+	height:340px;
+	left:0px;
+	overflow:hidden;
+	opacity:0.0;
+	position:absolute;
+	width:960px;
+	top:0px;
+	z-index:8;
+}
+
+#jb_slides div.current{
+	opacity:1.0;
+	z-index:10;
+}
+
+#jb_slides div.lastCurrent{
+	z-index:9;
+}
+
+#jb_slides h3{
+	font-size:27px;
+	line-height:36px;
+	margin:60px 0 0 60px;
+	width:450px;
+}
+
+#jb_slides p{
+	font-size:16px;
+	line-height:20px;
+	margin:10px 0 0 60px;
+	width:450px;
+}
+
+#jb_slides img{
+	float:right;
+	margin:30px 50px 0 0;
+}
+
+#jb_slides a{
+	color:#36a6f1;
+	text-decoration:none;
+}
+
+
+
+/* Nav
+ --------------------------------- */
+#jb_nav{
+	position:absolute;
+	left:10px;
+	bottom:10px;
+	z-index:99;
+}
+
+#jb_nav span{
+	background-color:#fff;
+		-moz-border-radius:50%;
+		-webkit-border-radius:50%;
+	border-radius:50%;
+	border:2px solid #fff;
+	float:left;
+	height:8px;
+	margin-right:4px;
+	width:8px;
+	text-indent:-9999px;
+}
+
+#jb_nav span.current{
+	background-color:#36a6f1;
+}
+
+
+
+/* Arrow
+ --------------------------------- */
+.jb_arrow{
+	background-color:#fff;
+	color:#36a6f1;
+	font-size:11px;
+	font-weight:bold;
+	padding:8px 8px 6px;
+	position:absolute;
+	text-decoration:none;
+	z-index:20;
+}
+
+#jb_prev{
+		-webkit-border-top-right-radius: 5px;
+		-webkit-border-bottom-right-radius: 5px;
+		-moz-border-radius-topright: 5px;
+		-moz-border-radius-bottomright: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	left:0;
+}
+
+#jb_next{
+		-webkit-border-top-left-radius: 5px;
+		-webkit-border-bottom-left-radius: 5px;
+		-moz-border-radius-topleft: 5px;
+		-moz-border-radius-bottomleft: 5px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	right:0;
+}
+
+
+
+/* Pause
+ --------------------------------- */
+#jb_pause{
+	border:3px solid #fff;
+		-moz-border-radius:50%;
+		-webkit-border-radius:50%;
+	border-radius:50%;
+	color:#fff;
+	display:none;
+	font-size:10px;
+	font-weight:bold;
+	padding:0px 6px;
+	position:absolute;
+	right:5px;
+	top:5px;
+	z-index:80;	
+}
+
