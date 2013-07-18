@@ -46,6 +46,7 @@ Another jQuery Slider... It is simple and easy to use.
 <h4>Options</h4>
 
     $("#slideContainer").jbSlider({
+<<<<<<< HEAD
         arrow  	       : false,	 // Next and Prev navigation
         autoPlay	   : true,	 // Change slides automatically
         autoHide	   : false,	 // Hide controls
@@ -60,6 +61,22 @@ Another jQuery Slider... It is simple and easy to use.
         pauseOnHover   : true,	 // Stop slide on mouse hover
         pauseTextShow  : true,	 // Show pause text on mouse hover
         pauseText      : "ll"	 // Pause text
+=======
+        arrow  	: false,	    // Next and Prev navigation
+        autoPlay	: true,		  // Change slides automatically
+        autoHide	: false,	  // Hide controls
+        autoHideDelay	: 1000,	// Hide controls after ...ms
+        autoHideSpeed	: 500,	// Hiding speed for controls
+        controlNav	: true,		// 1,2,3... (circle) navigation
+        controlPos	: true,		// Center positioning for navigation
+        nextText	: "Next",	  // Next direction nav text
+        prevText	: "Prev",	  // Prev direction nav text
+        pauseTime	: 6000,		  // How long each slide will show
+        animSpeed	: 1000, 	  // Slide transition speed
+        pauseOnHover	: true,	// Stop slide on mouse hover
+        pauseTextShow	: true,	// Show pause text on mouse hover
+        pauseText	: "ll"		  // Pause text
+>>>>>>> cef340447bdeb083757ab6127393853456947ab8
     });       
     
     
