@@ -1,7 +1,7 @@
 jbslider
 ========
 
-Another jQuery Slider... It is simple and easy to use.
+Another jQuery Slider... It is simple and easy to use. <a href="http://www.burakkaya.com/lab/slider/" target="_blank">See Demo</a>
 
 <h4>Features</h4>
 <ul>
