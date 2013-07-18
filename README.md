@@ -1,0 +1,4 @@
+jbslider
+========
+
+Another jQuery Slider
