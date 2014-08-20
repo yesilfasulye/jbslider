@@ -63,10 +63,12 @@ a{
     box-shadow: 0 3px #7A073E;
     color: #FFF;
     font-weight: bold;
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;
 }
 
 .button:hover{
-    box-shadow: 0 5px #7A073E;
+    box-shadow: 0 5px #CC4284;
 }
 
 .button:active{
