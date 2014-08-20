@@ -54,3 +54,21 @@ a{
     color:#31B88C;
     text-decoration: none;
 }
+
+.button{
+    display: inline-block;
+    padding: 20px 40px;
+    background: #B6256A;
+    border-radius: 3px;
+    box-shadow: 0 3px #7A073E;
+    color: #FFF;
+    font-weight: bold;
+}
+
+.button:hover{
+    box-shadow: 0 5px #7A073E;
+}
+
+.button:active{
+    box-shadow: 0 1px #7A073E;
+}
