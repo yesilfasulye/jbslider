@@ -1,0 +1,99 @@
+/*
+ * jbSlider
+ * http://www.burakkaya.com
+ *
+ * Created by Burak KAYA 
+ * @yesilfasulye
+ * 
+ * 2013
+ */
+ 
+.jbslider-slides{
+    height:100%;
+    width:100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.jbslider-slides > *{
+  height:100%;
+  left:0px;
+  overflow:hidden;
+  opacity:0.0;
+  position:absolute;
+  top:0px;
+  width:100%;
+  z-index:8;
+}
+
+.jbslider-slides > .active{
+  opacity:1.0;
+  z-index:10;
+}
+
+.jbslider-slides > .lastActive{
+  z-index:9;
+}
+
+.jbslider-holder nav{
+  position: absolute;
+  z-index: 14;
+}
+
+.jbslider-holder nav a{
+  background-color:#fff;
+  border:2px solid rgba(255,255,255,0);
+  border-radius: 50%;
+  float:left;
+  height:8px;
+  margin:0 2px;
+  text-indent: -9999px;
+  width:8px;
+}
+
+.jbslider-holder nav a.active{
+  background: none;
+  border:2px solid rgba(255,255,255,.8);
+}
+
+.jbslider-arrow{
+    background-color: #fff;
+    display: block;
+    padding:10px;
+    position: absolute;
+    z-index: 12;
+}
+
+.jbslider-pause{
+    background-color: #fff;
+    display: none;
+    padding:10px;
+    position:absolute;
+    right:0;
+    top:0;
+    z-index:14;
+}
+
+.jbslider-loader{
+    background-color: #31B88C;
+    bottom:0;
+    height:2px;
+    left:0;
+    position: absolute;
+    width:0;
+    z-index: 12;
+}
+
+.jbslider-thumb{
+    background-color: #fff;
+    box-shadow: 1px 1px 2px rgba(0,0,0,.5);
+    display:none;
+    padding:2px;
+    position: absolute;
+    z-index: 30;
+}
+
+.jbslider-thumb img{
+  display: block;
+  width:100%;
+}
